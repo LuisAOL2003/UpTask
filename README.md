@@ -9,15 +9,19 @@ Author
 
 
 🎯 Overview
+
 UpTask is a project management web application that allows users to create projects, add tasks, assign statuses and track their progress through a clean dashboard. Built with a custom PHP MVC architecture without external frameworks, demonstrating strong fundamentals in server-side development, OOP and relational database design.
 
 ✨ Features
+
 ModuleDescription🔐 AuthenticationUser registration, login and password recovery via email📁 ProjectsCreate, edit and delete projects with name and description✅ TasksAdd tasks to projects with custom names and status tracking🔄 Status managementMark tasks as pending, in progress or completed👤 User dashboardPersonalized view showing all owned projects📧 Email integrationAccount confirmation and password reset emails
 
 🛠️ Tech Stack
+
 LayerTechnologyBackendPHP 8 (custom MVC, no framework)FrontendHTML5, CSS3, JavaScript (ES6+), AJAXStylingSASS / SCSS compiled with GulpDatabaseMySQL (relational, normalized schema)RoutingCustom PHP RouterBuild ToolGulp 4
 
 📁 Project Structure
+
 UpTask/
 ├── classes/            # Base classes: Model, Router, Email
 ├── controllers/        # Controllers: ProjectController, TaskController, UserController
